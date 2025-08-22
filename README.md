@@ -22,7 +22,8 @@ This is a game that tests both memory and luck. First, you will be given an orig
 
 ### Original image on the left, answer on the right — can you spot what’s missing?  
 
-<img width="1766" height="949" alt="image" src="https://github.com/user-attachments/assets/1502d018-9eb0-4ad8-949a-eabe2620d01a" />  
+<img width="1108" height="732" alt="image" src="https://github.com/user-attachments/assets/4fe9d774-1d64-4e6d-ad8d-26aee3296b21" />  
+
 
 ### Start Drawing:  
 
