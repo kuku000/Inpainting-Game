@@ -55,11 +55,13 @@ This is a game that tests both memory and luck. First, you will be given an orig
 <img width="1452" height="853" alt="image" src="https://github.com/user-attachments/assets/b5df14fb-3610-43ba-ad14-7d28ce397d17" />  
 
 
+```
 @inproceedings{yan2021agg,
   author = {Zeng, Yanhong and Fu, Jianlong and Chao, Hongyang and Guo, Baining},
   title = {Aggregated Contextual Transformations for High-Resolution Image Inpainting},
   booktitle = {Arxiv},
   pages={-},
   year = {2020}
-}  
+}
+``` 
 
