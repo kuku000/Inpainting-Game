@@ -52,7 +52,7 @@ This is a game that tests both memory and luck. First, you will be given an orig
 ## How To Play:
 - Download.
 - Install all the packages listed in the environment file.
-- src -> utils -> ui -> main.py and run this code.
+- src -> ui -> ui -> main.py and run this code.
 ## Reference:  
 
 <img width="1452" height="853" alt="image" src="https://github.com/user-attachments/assets/b5df14fb-3610-43ba-ad14-7d28ce397d17" />  
