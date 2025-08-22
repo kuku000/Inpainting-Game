@@ -63,5 +63,6 @@ This is a game that tests both memory and luck. First, you will be given an orig
   pages={-},
   year = {2020}
 }
-``` 
+```
 
+https://github.com/researchmm/AOT-GAN-for-Inpainting
