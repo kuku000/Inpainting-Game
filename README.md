@@ -53,6 +53,9 @@ This is a game that tests both memory and luck. First, you will be given an orig
 - Download.
 - Install all the packages listed in the environment file.
 - src -> ui -> ui -> main.py and run this code.
+
+## Contributors:
+[kuku000](https://github.com/kuku000) [Lowen0909](https://github.com/Lowen0909) [azonwu590](https://github.com/azonwu590) [Jeff](https://github.com/JeffYaCheng)
 ## Reference:  
 
 <img width="1452" height="853" alt="image" src="https://github.com/user-attachments/assets/b5df14fb-3610-43ba-ad14-7d28ce397d17" />  
