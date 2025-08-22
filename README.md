@@ -1,6 +1,6 @@
 # A spot-the-difference game based on AOTGAN Inpainting technology.
 ## System Architecture:
-<img width="1914" height="778" alt="image" src="https://github.com/user-attachments/assets/6520656b-c4f1-49a0-bd50-dd686c20c091" />
+<img width="1914" height="778" alt="image" src="https://github.com/user-attachments/assets/6520656b-c4f1-49a0-bd50-dd686c20c091" />  
 ## Game Rule:
 This is a game that tests both memory and luck. First, you will be given an original photo and another photo with certain objects removed. You have 5 seconds to observe the differences between the two. After that, you will be shown the original image again, on which you can mark areas that you think should be removed. Once you feel you are done, submit your answer to see your score.
 ## Game Screen Demo:
