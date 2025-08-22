@@ -1,0 +1,35 @@
+xhost +
+docker/run.sh --volume /home/cils0023/Downloads/AOT-GAN-for-Inpainting:/jetson-inference/AOT-GAN-for-Inpainting
+sudo apt-get update
+sudo apt-get install python3-pyqt5
+pip install scikit-image
+cd AOT-GAN-for-Inpainting/src/ui
+python3 main.py
+
+
+python3 demo.py --dir_image /jetson-inference/AOT-GAN-for-Inpainting/examples/logos/image --pre_train /jetson-inference/AOT-GAN-for-Inpainting/experiments/G0000000.pt --painter freeform
+
+//HW4 run code
+sudo docker run -it --volume /cd AOT-GAN-for-Inpainting/src
+cd AOT-GAN-for-Inpainting/src
+python3 demo.py --dir_image /jetson-inference/AOT-GAN-for-Inpainting/examples/logos/image --pre_train /jetson-inference/AOT-GAN-for-Inpainting/experiments/G0000000.pt --painter freeform
+
+
+
+python demo.py --dir_image /jetson-inference/AOT-GAN-for-Inpainting/examples/logos/image --pre_train /jetson-inference/AOT-GAN-for-Inpainting/experiments --painter freeform
+/jetson-inference/test/train
+/jetson-inference/test/label
+
+python3 posnetf.py /jetson-inference/test/train /jetson-inference/test/label 
+
+python3 posnetf.py "/jetson-inference/test/train/frame000001.png" /jetson-inference/test/label/frame000001.png
+
+testpython3 posnetf.py "/jetson-inference/test/train2/frame*.png" /jetson-inference/test2/label/frame%i.png
+
+for i in {1..10}; do     python3 posnetf.py "/jetson-inference/train2/frame${i}.png" "/jetson-inference/test/label2/frame${i}.png" done
+
+python3 /jetson-inference/realtime/EverybodyDanceNow/test_fullts.py --name real-time2 --dataroot /jetson-inference/test/train2 --checkpoints_dir /jetson-inference/realtime/checkpoint --results_dir /jetson-inference/test/result --no_instance --how_many 12 --label_nc 6 --loadsize 512
+
+pip install matplotlib
+pip install scipy
+pip install dominate
